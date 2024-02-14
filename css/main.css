@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+/* Assignment 1 */
+
+html {
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #f1c40f;
+    border: 8px solid blue;
+}
+
+body {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 15%;
+
+}
+
+header {
+    margin-bottom: 5%;
+
+}
+
+button {
+    margin-right: 10px;
+
+}
+
+#text {
+
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 20%;
+}
+
+/*main buttons */
+#mainBtns {
+    height: 100px;
+    margin-left: 15%;
+}
+
+#purpleButton {
+
+    background-color: purple;
+    padding: 10px
+}
+
+#blueButton {
+    background-color: blue;
+    padding: 10px;
+}
+
+#greenButton {
+    background-color: green;
+    padding: 10px;
+}
+
+#orangeButton {
+    background-color: orange;
+    padding: 10px;
+}
+
+#pinkButton {
+    background-color: #e84393;
+    padding: 10px;
+
+}
+
+/*other buttons(Random Story, Reset Button)*/
+#otherBtns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+/*randomStory button*/
+#redBtn {
+    background-color: red;
+    padding: 10px;
+}
+
+/*reset*/
+#aquBtn {
+    display: flex;
+    padding: 10px;
+    background-color: aqua;
+
+}
+
+/* story show text*/
+#newStory {
+    height: 30px;
+    padding: 15px;
+    background-color: white;
+}
+
+/*image*/
+.img1 {
+    height: 300px;
+    width: 600px;
+    border: 5px solid blue;
+}
